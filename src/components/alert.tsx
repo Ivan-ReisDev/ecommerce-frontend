@@ -3,7 +3,7 @@ import React from 'react'
 export default function Alert() {
   return (
     <div className='w-full flex items-center justify-center h-[35px]'>
-        <p><span className='font-bold'>Frete Grátis</span> até o dia 00/00/00</p>
+        <p>Use o cupom <span className='font-bold'>DESCONTO10</span> e ganha 10% de desconto em todas as compras.</p>
     </div>
   )
 }

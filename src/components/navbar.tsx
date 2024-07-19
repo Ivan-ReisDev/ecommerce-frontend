@@ -23,10 +23,13 @@ export default function Navbar() {
                 </div>
                 <Search />
                 <div className='mr-[50px] flex items-center justify-center'>
-                <button className='text-[15px] mx-3 flex flex-col items-center justify-center'>
+                <Link 
+                className='text-[15px] mx-3 flex flex-col items-center justify-center' 
+                href={`/login`}
+                >
                     <HiOutlineUser className='text-[#fff] text-[40px]'/>
                     Minha Conta
-                </button>
+                </Link>
 
                 <button className='text-[15px] mx-3 flex flex-col items-center justify-center'>
                     <PiShoppingCartThin className='text-[#fff] text-[40px]'/>

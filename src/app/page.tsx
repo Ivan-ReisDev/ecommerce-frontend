@@ -3,6 +3,7 @@ import Carrossel from "@/components/carrossel"
 import Alert from "@/components/alert";
 import Infos from "@/components/infos";
 import ListProducts from "@/components/listProducts";
+import WhatsApp from "@/components/whatsApp";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Carrossel />
       <Infos />
       <ListProducts />
+      <WhatsApp />
     </div>
   );
 }
